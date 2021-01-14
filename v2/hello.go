@@ -2,10 +2,10 @@ package hello
 
 import "rsc.io/quote/v3"
 
-func Hello() string {
+func HelloV2() string {
     return quote.HelloV3() + " v2"
 }
 
-func Proverb() string {
+func ProverbV2() string {
     return quote.Concurrency() + " v2"
 }
